@@ -1,8 +1,8 @@
-package com.jackson.training.user.connections;
+package com.jackson.training.auth.user.connections;
 
 import java.util.Date;
 
-import com.jackson.training.user.User;
+import com.jackson.training.auth.user.User;
 
 public class Connections {
     

@@ -1,4 +1,4 @@
-package com.jackson.training.user;
+package com.jackson.training.auth.user;
 
 import java.util.Date;
 
@@ -16,7 +16,7 @@ public class User {
     private Date blockedDate;
     private Date lastConnection;
     private Date recordDate;
-    
+
     public int getId() {
         return id;
     }
