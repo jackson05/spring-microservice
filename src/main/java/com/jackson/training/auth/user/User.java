@@ -93,38 +93,36 @@ public class User implements UserDetails {
     public void setRecordDate(Date recordDate) {
         this.recordDate = recordDate;
     }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getAuthorities'");
     }
     @Override
-    public String getUsername() {
-        // TODO Auto-generated method stub
+    public String getUsername() { 
         throw new UnsupportedOperationException("Unimplemented method 'getUsername'");
     }
+
     @Override
-    public boolean isAccountNonExpired() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isAccountNonExpired'");
+    public boolean isAccountNonExpired() { 
+        return true;
     }
+
     @Override
-    public boolean isAccountNonLocked() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isAccountNonLocked'");
+    public boolean isAccountNonLocked() { 
+       return true;
     }
+
     @Override
     public boolean isCredentialsNonExpired() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isCredentialsNonExpired'");
+        return true;
     }
     @Override
     public boolean isEnabled() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isEnabled'");
+       return true;
     }
 
-
-
+ 
     
 }
